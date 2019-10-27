@@ -1,0 +1,45 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "globalReturn": true,
+            "impliedStrict": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "document": false,
+        "escape": false,
+        "navigator": false,
+        "unescape": false,
+        "window": false,
+        "describe": true,
+        "before": true,
+        "it": true,
+        "expect": true,
+        "sinon": true,
+
+        // extra global variables
+        "_": false,
+        "$": false,
+        "jQuery": false,
+        "d3": false,
+        "moment": false,
+        "L": false,
+        "WB": false
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+    ],
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-console": "off",
+        "no-unused-vars": "off"
+    }
+}
